@@ -9,7 +9,7 @@ class Anagram
   #end
 
   def match
-    @detector.equal? = []
+    @detector.equal? []
 
   end
 
