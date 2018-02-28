@@ -14,7 +14,7 @@ class Anagram
     #binding.pry
     #word.equal? []
     input.select do |w|
-      w.length
+      w.length > 5
 
     end
 
