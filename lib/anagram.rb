@@ -12,7 +12,10 @@ class Anagram
 
   def match(input)
     binding.pry
-    word.equal? []
+    #word.equal? []
+    input.each do |w| w.length
+
+    end
 
   end
 
