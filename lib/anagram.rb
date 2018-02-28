@@ -3,7 +3,7 @@ class Anagram
 
   attr_accessor :detector
 
-  def match(word)
+  def match
     @word = []
 
   end
