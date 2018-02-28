@@ -11,10 +11,11 @@ class Anagram
   end
 
   def match(input)
-    binding.pry
+
     #word.equal? []
     input.select do |w|
       w.length > 5
+      binding.pry
 
     end
 
