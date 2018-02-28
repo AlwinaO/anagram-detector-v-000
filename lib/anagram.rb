@@ -8,8 +8,8 @@ class Anagram
 
   #end
 
-  def match
-    @detector.equal? []
+  def match(word)
+    word.equal? []
 
   end
 
