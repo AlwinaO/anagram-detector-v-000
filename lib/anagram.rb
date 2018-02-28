@@ -13,7 +13,7 @@ class Anagram
   def match(input)
     #binding.pry
     #word.equal? []
-    input.map do |w|
+    input.select do |w|
       w.length
 
     end
