@@ -1,4 +1,6 @@
 # Your code goes here!
+require 'pry'
+
 class Anagram
 
   attr_accessor :detector
@@ -9,6 +11,7 @@ class Anagram
   end
 
   def match(word)
+    binding.pry
     word.equal? []
 
   end
