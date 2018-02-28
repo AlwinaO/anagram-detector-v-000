@@ -11,9 +11,9 @@ class Anagram
   end
 
   def match(input)
-    binding.pry
+    #binding.pry
     #word.equal? []
-    input.each do |w|
+    input.map do |w|
       w.length
 
     end
