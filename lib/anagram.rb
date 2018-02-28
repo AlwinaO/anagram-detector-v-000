@@ -10,7 +10,7 @@ class Anagram
 
   end
 
-  def match(word)
+  def match(input)
     binding.pry
     word.equal? []
 
