@@ -15,7 +15,7 @@ class Anagram
     #word.equal? []
     input.select do |w|
       w.split("").sort == @word.split("").sort
-      binding.pry
+      #binding.pry
 
     end
 
